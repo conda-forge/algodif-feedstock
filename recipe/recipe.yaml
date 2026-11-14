@@ -1,5 +1,5 @@
 context:
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: algodif
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/algodif/algodif-${{ version }}.tar.gz
-  sha256: a223a25a8761bf8ff1e8ea0903810ca27facdbfe23a6ad2dba14051532aed917
+  sha256: e8c485dd6e780bd087d3fd11039c181ff3728ab473df07c25da8a9bc7486866b
 
 build:
   number: 0
