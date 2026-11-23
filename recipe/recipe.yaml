@@ -10,7 +10,7 @@ source:
   sha256: e8c485dd6e780bd087d3fd11039c181ff3728ab473df07c25da8a9bc7486866b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -26,7 +26,6 @@ requirements:
     - scipy
     - h5py
     - pillow
-    - matplotlib-base
     - joblib
     - xraydb
 
