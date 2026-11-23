@@ -26,7 +26,6 @@ requirements:
     - scipy
     - h5py
     - pillow
-    - matplotlib-base
     - joblib
     - xraydb
 
